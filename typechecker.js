@@ -69,19 +69,19 @@ typefaceTag.addEventListener("input", function () {
 // when i click one of them, change the background color and 
 // the text color, and make this tag be selected
 colorTags.forEach(tag => {
-  
+
   tag.addEventListener("click", function () {
     outputTag.style.backgroundColor = this.style.backgroundColor
     outputTag.style.color = this.style.color
-    
+
     // reset the classes
     colorTags.forEach(tag => {
       tag.classList.remove("selected")
     })
-    
+
     // only to this clicked one
     this.classList.add("selected")
   })
-  
+
 })
 
