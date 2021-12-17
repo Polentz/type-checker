@@ -70,7 +70,7 @@
 @font-face {
   font-family: "Sprat-Extended";
   font-weight: 400;
-  src: url(https://github.com/Polentz/type-checker/tree/main/assets/SpratExtnRegular.woff2), url(assets/SpratExtnRegular.woff);
+  src: url(assets/SpratExtnRegular.woff2), url(assets/SpratExtnRegular.woff);
 }
 @font-face {
   font-family: "Sprat-Extended";
